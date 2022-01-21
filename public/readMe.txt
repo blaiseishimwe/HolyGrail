@@ -16,8 +16,9 @@ to fix the cross origin errors, run a little server. download http-server from n
       #docker image for Redis
       #This image expose includes Expose 6379 (the redis port)
       #so standard container linking will make it
-       automativally available to the linked containers
+       automatically available to the linked containers
 $ docker run -p 6379:6379 --name some-redis -d redis
 
 8. npm i redis
+9. refactor the routes
 
